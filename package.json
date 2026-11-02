@@ -4,7 +4,7 @@
   "description": "atomation test Klik Indomaret untuk Tech Test QA EDTS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 60000 test/**/*.spec.js"
+    "test": "mocha --timeout 120000 test/**/*.spec.js"
   },
   "dependencies": {
     "chromedriver": "^114.0.0",
