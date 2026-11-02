@@ -1,0 +1,14 @@
+{
+  "name": "klikindomaret-auto",
+  "version": "1.0.0",
+  "description": "atomation test Klik Indomaret untuk Tech Test QA EDTS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 test/**/*.spec.js"
+  },
+  "dependencies": {
+    "chromedriver": "^114.0.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.10.0"
+  }
+}
